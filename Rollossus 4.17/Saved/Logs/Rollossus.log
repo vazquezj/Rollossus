@@ -1,13 +1,23 @@
+<<<<<<< HEAD
 ﻿Log file open, 10/20/17 16:26:12
+=======
+﻿Log file open, 10/26/17 10:39:26
+>>>>>>> origin/Devin
 LogWindows: LoadLibraryWithSearchPaths failed for file aqProf.dll. GetLastError=0
 LogWindows: LoadLibraryWithSearchPaths failed for file VSPerf140.dll. GetLastError=0
 LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi.dll. GetLastError=0
 LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi32e.dll. GetLastError=0
 LogInit: Display: Running engine for game: Rollossus
 LogPlatformFile: Not using cached read wrapper
+<<<<<<< HEAD
 LogInit: Display: RandInit(1386533708) SRandInit(1386533708).
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
 LogStats: Stats thread started at 0.232082
+=======
+LogInit: Display: RandInit(-2046685438) SRandInit(-2046685438).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.186368
+>>>>>>> origin/Devin
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -109,6 +119,7 @@ LogInit: Base directory: C:/Program Files (x86)/Epic Games/UE_4.17/Engine/Binari
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
+<<<<<<< HEAD
 [2017.10.20-20.26.13:877][  0]LogInit: Selected Device Profile: [Windows]
 [2017.10.20-20.26.13:877][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
 [2017.10.20-20.26.13:898][  0]LogInit: Computer: IULB-FF035-03
@@ -581,3 +592,387 @@ LogInit: Object subsystem initialized
 [2017.10.20-20.33.02:115][873]LogModuleManager: Shutting down and abandoning module PakFile (2)
 [2017.10.20-20.33.02:118][873]LogExit: Exiting.
 [2017.10.20-20.33.02:136][873]Log file closed, 10/20/17 16:33:02
+=======
+[2017.10.26-14.39.27:579][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.26-14.39.27:579][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.10.26-14.39.27:590][  0]LogInit: Computer: IULB-FF035-01
+[2017.10.26-14.39.27:590][  0]LogInit: User: dstukel
+[2017.10.26-14.39.27:590][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.10.26-14.39.27:590][  0]LogInit: High frequency timer resolution =2.143477 MHz
+[2017.10.26-14.39.27:591][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.10.26-14.39.27:591][  0]LogMemory: Platform Memory Stats for Windows
+[2017.10.26-14.39.27:591][  0]LogMemory: Process Physical Memory: 278.09 MB used, 278.09 MB peak
+[2017.10.26-14.39.27:591][  0]LogMemory: Process Virtual Memory: 274.44 MB used, 274.44 MB peak
+[2017.10.26-14.39.27:591][  0]LogMemory: Physical Memory: 5872.45 MB used,  10456.60 MB free, 16329.05 MB total
+[2017.10.26-14.39.27:591][  0]LogMemory: Virtual Memory: 668.44 MB used,  10456.60 MB free, 134217728.00 MB total
+[2017.10.26-14.39.27:782][  0]LogInit: Using OS detected language (en-US).
+[2017.10.26-14.39.27:782][  0]LogInit: Using OS detected locale (en-US).
+[2017.10.26-14.39.27:786][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.10.26-14.39.28:572][  0]LogD3D11RHI: D3D11 adapters:
+[2017.10.26-14.39.28:622][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GPU' (Feature Level 11_0)
+[2017.10.26-14.39.28:622][  0]LogD3D11RHI:       2017/0/8164 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.10.26-14.39.28:623][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.10.26-14.39.28:623][  0]LogD3D11RHI:       0/0/8164 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.10.26-14.39.28:625][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.10.26-14.39.28:625][  0]LogD3D11RHI:       0/0/8164 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.10.26-14.39.28:625][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.10.26-14.39.28:630][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.10.26-14.39.28:630][  0]LogD3D11RHI:     GPU DeviceId: 0x1392 (for the marketing name, search the web for "GPU Device Id")
+[2017.10.26-14.39.28:630][  0]LogWindows: EnumDisplayDevices:
+[2017.10.26-14.39.28:631][  0]LogWindows:    0. 'NVIDIA GeForce GPU' (P:0 D:1)
+[2017.10.26-14.39.28:631][  0]LogWindows:    1. 'DisplayLink USB Device' (P:1 D:1)
+[2017.10.26-14.39.28:631][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter 
+[2017.10.26-14.39.28:631][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GPU
+[2017.10.26-14.39.28:631][  0]LogD3D11RHI:   Driver Version: 381.78 (internal:22.21.13.8178, unified:381.78)
+[2017.10.26-14.39.28:631][  0]LogD3D11RHI:      Driver Date: 4-12-2017
+[2017.10.26-14.39.28:631][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.10.26-14.39.28:667][  0]LogD3D11RHI: Async texture creation enabled
+[2017.10.26-14.39.28:680][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.10.26-14.39.28:729][  0]LogD3D11RHI: HDR output is supported on display 1 (NvId: 0x80061083).
+[2017.10.26-14.39.28:729][  0]LogShaderCompilers: Guid format shader working directory is -17 characters bigger than the processId version (../../../../../../Users/dstukel/Documents/Rollosus/Rollossus 4.17/Intermediate/Shaders/WorkingDirectory/7528/).
+[2017.10.26-14.39.28:729][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/dstukel/AppData/Local/Temp/UnrealShaderWorkingDir/DAB7A2224CDEDCE793435B9A9D70B281/'.
+[2017.10.26-14.39.28:729][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.10.26-14.39.29:967][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.10.26-14.39.30:462][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.10.26-14.39.30:590][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.10.26-14.39.30:669][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.10.26-14.39.30:772][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.10.26-14.39.30:874][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.10.26-14.39.30:973][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.10.26-14.39.31:060][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.10.26-14.39.31:210][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.10.26-14.39.31:292][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.10.26-14.39.31:368][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.10.26-14.39.31:431][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.10.26-14.39.31:497][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.10.26-14.39.31:570][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.10.26-14.39.31:634][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.10.26-14.39.31:785][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.10.26-14.39.31:785][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.10.26-14.39.31:837][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.10.26-14.39.31:953][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.10.26-14.39.31:991][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.10.26-14.39.32:052][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.10.26-14.39.32:119][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.10.26-14.39.32:185][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.10.26-14.39.32:252][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.10.26-14.39.32:252][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.10.26-14.39.32:936][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.10.26-14.39.33:018][  0]LogDerivedDataCache: Loaded boot cache 0.08s 93MB C:/Users/dstukel/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.10.26-14.39.33:018][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/dstukel/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.10.26-14.39.33:018][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/dstukel/Documents/Rollosus/Rollossus 4.17/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.10.26-14.39.33:018][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.10.26-14.39.33:018][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/dstukel/Documents/Rollosus/Rollossus 4.17/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.10.26-14.39.33:018][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.10.26-14.39.33:041][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.10.26-14.39.33:053][  0]LogDerivedDataCache: Using Local data cache path C:/Users/dstukel/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.10.26-14.39.33:067][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.10.26-14.39.33:068][  0]LogSlate: Using Freetype 2.6.0
+[2017.10.26-14.39.33:069][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.26-14.39.33:069][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.26-14.39.33:395][  0]LogAssetRegistry: FAssetRegistry took 0.0256 seconds to start up
+[2017.10.26-14.39.33:552][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.26-14.39.33:726][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.10.26-14.39.34:146][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.10.26-14.39.34:200][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.10.26-14.39.34:200][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.10.26-14.39.34:200][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.10.26-14.39.34:200][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.10.26-14.39.34:200][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.10.26-14.39.34:623][  0]LogNetVersion: Rollossus , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 578457519)
+[2017.10.26-14.39.34:906][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.062582 seconds
+[2017.10.26-14.39.34:912][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.10.26-14.39.34:912][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
+[2017.10.26-14.39.34:912][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.10.26-14.39.35:007][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.10.26-14.39.38:791][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.10.26-14.39.38:860][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.10.26-14.39.39:645][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.10.26-14.39.40:147][  0]SourceControl: Source control is disabled
+[2017.10.26-14.39.40:148][  0]SourceControl: Source control is disabled
+[2017.10.26-14.39.40:215][  0]SourceControl: Source control is disabled
+[2017.10.26-14.39.40:282][  0]SourceControl: Source control is disabled
+[2017.10.26-14.39.41:057][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.10.26-14.39.41:396][  0]LogOcInput: OculusInput pre-init called
+[2017.10.26-14.39.41:906][  0]LogEngine: Initializing Engine...
+[2017.10.26-14.39.41:908][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.10.26-14.39.42:179][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.10.26-14.39.42:179][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.10.26-14.39.42:364][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.10.26-14.39.42:374][  0]LogInit: XAudio2 using 'Speakers (Dell USB Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.26-14.39.42:396][  0]LogInit: FAudioDevice initialized.
+[2017.10.26-14.39.42:531][  0]LogDerivedDataCache: Saved boot cache 0.13s 93MB C:/Users/dstukel/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.10.26-14.39.42:545][  0]LogInit: Texture streaming: Enabled
+[2017.10.26-14.39.42:702][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.10.26-14.39.43:145][  0]LogInit: Transaction tracking system initialized
+[2017.10.26-14.39.43:621][  0]BlueprintLog: New page: Editor Load
+[2017.10.26-14.39.44:814][  0]LocalizationService: Localization service is disabled
+[2017.10.26-14.39.45:678][  0]LogConsoleResponse: Display: 
+[2017.10.26-14.39.45:927][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.10.26-14.39.45:927][  0]LogCook: Display: Mobile HDR setting 1
+[2017.10.26-14.39.45:927][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.10.26-14.39.46:610][  0]LogFileCache: Scanning file cache for directory 'C:/Users/dstukel/Documents/Rollosus/Rollossus 4.17/Content/' took 0.02s
+[2017.10.26-14.39.47:588][  0]SourceControl: Source control is disabled
+[2017.10.26-14.39.47:588][  0]Cmd: MAP LOAD FILE="../../../../../../Users/dstukel/Documents/Rollosus/Rollossus 4.17/Content/RollingBP/Maps/RollingBPExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.26-14.39.47:588][  0]LightingResults: New page: Lighting Build
+[2017.10.26-14.39.47:661][  0]MapCheck: New page: Map Check
+[2017.10.26-14.39.47:661][  0]LightingResults: New page: Lighting Build
+[2017.10.26-14.39.48:653][  0]LogTexture: Display: Building textures: Metal_CyberCube_2k_t (AutoDXT, 2048X2048)
+[2017.10.26-14.39.51:192][  0]LogTexture: Display: Building textures: Metal_Gold_2k_s (AutoDXT, 2048X2048)
+[2017.10.26-14.39.51:193][  0]LogTexture: Display: Building textures: Metal_CyberCube_2k_n (BC5, 2048X2048)
+[2017.10.26-14.39.51:193][  0]LogTexture: Display: Building textures: Metal_CyberCube_2k_g (AutoDXT, 2048X2048)
+[2017.10.26-14.39.51:193][  0]LogTexture: Display: Building textures: Metal_Gold_2k_g (AutoDXT, 2048X2048)
+[2017.10.26-14.39.51:193][  0]LogTexture: Display: Building textures: Metal_CyberCube_2k_s (AutoDXT, 2048X2048)
+[2017.10.26-14.39.51:193][  0]LogTexture: Display: Building textures: Metal_CyberCube_2k_ao (AutoDXT, 2048X2048)
+[2017.10.26-14.39.51:193][  0]LogTexture: Display: Building textures: Concrete_Square_2k_h (AutoDXT, 2048X2048)
+[2017.10.26-14.39.51:193][  0]LogTexture: Display: Building textures: brick_ancientDiagonal_2k_n (BC5, 2048X2048)
+[2017.10.26-14.39.51:197][  0]LogMaterial: Missing cached shader map for material Metal_Gold, compiling. 
+[2017.10.26-14.39.55:288][  0]LogTexture: Display: Building textures: brick_ancientDiagonal_2k_alb (AutoDXT, 2048X2048)
+[2017.10.26-14.39.55:288][  0]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 2048X2048)
+[2017.10.26-14.39.55:288][  0]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 1024X1024)
+[2017.10.26-14.39.55:288][  0]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 1024X1024)
+[2017.10.26-14.39.55:288][  0]LogTexture: Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 1024X1024)
+[2017.10.26-14.39.55:288][  0]LogTexture: Display: Building textures: HQ_Lightmap0_5 (AutoDXT, 1024X1024)
+[2017.10.26-14.39.55:288][  0]LogTexture: Display: Building textures: HQ_Lightmap0_6 (AutoDXT, 1024X1024)
+[2017.10.26-14.39.55:293][  0]LogMaterial: Missing cached shader map for material Metal_CyberCube, compiling. 
+[2017.10.26-14.40.02:844][  0]LogTexture: Display: Building textures: HQ_Lightmap0_7 (AutoDXT, 1024X1024)
+[2017.10.26-14.40.02:844][  0]LogTexture: Display: Building textures: HQ_Lightmap0_8 (AutoDXT, 1024X1024)
+[2017.10.26-14.40.02:844][  0]LogTexture: Display: Building textures: HQ_Lightmap0_9 (AutoDXT, 64X64)
+[2017.10.26-14.40.02:844][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 2048X2048)
+[2017.10.26-14.40.02:845][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 1024X1024)
+[2017.10.26-14.40.02:845][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 1024X1024)
+[2017.10.26-14.40.02:845][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_4 (DXT1, 1024X1024)
+[2017.10.26-14.40.02:845][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_5 (DXT1, 1024X1024)
+[2017.10.26-14.40.02:845][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_6 (DXT1, 1024X1024)
+[2017.10.26-14.40.02:845][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_7 (DXT1, 1024X1024)
+[2017.10.26-14.40.02:845][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_8 (DXT1, 1024X1024)
+[2017.10.26-14.40.02:845][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_9 (DXT1, 64X64)
+[2017.10.26-14.40.02:845][  0]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 2048X1024)
+[2017.10.26-14.40.02:845][  0]LogTexture: Display: Building textures: SkyOcclusion0_2 (AutoDXT, 1024X512)
+[2017.10.26-14.40.02:845][  0]LogTexture: Display: Building textures: SkyOcclusion0_3 (AutoDXT, 1024X512)
+[2017.10.26-14.40.02:845][  0]LogTexture: Display: Building textures: SkyOcclusion0_4 (AutoDXT, 1024X512)
+[2017.10.26-14.40.02:845][  0]LogTexture: Display: Building textures: SkyOcclusion0_5 (AutoDXT, 1024X512)
+[2017.10.26-14.40.02:845][  0]LogTexture: Display: Building textures: SkyOcclusion0_6 (AutoDXT, 1024X512)
+[2017.10.26-14.40.02:845][  0]LogTexture: Display: Building textures: SkyOcclusion0_7 (AutoDXT, 1024X512)
+[2017.10.26-14.40.02:845][  0]LogTexture: Display: Building textures: SkyOcclusion0_8 (AutoDXT, 1024X512)
+[2017.10.26-14.40.02:845][  0]LogTexture: Display: Building textures: SkyOcclusion0_9 (AutoDXT, 64X32)
+[2017.10.26-14.40.02:845][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 1024X1024)
+[2017.10.26-14.40.02:845][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 1024X1024)
+[2017.10.26-14.40.02:845][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (G8, 1024X1024)
+[2017.10.26-14.40.02:845][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (G8, 1024X1024)
+[2017.10.26-14.40.02:845][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_5 (G8, 1024X512)
+[2017.10.26-14.40.02:845][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_4 (G8, 1024X1024)
+[2017.10.26-14.40.02:845][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_6 (G8, 32X32)
+[2017.10.26-14.40.02:898][  0]LogMaterial: Missing cached shader map for material brick_ancientDiagonal, compiling. 
+[2017.10.26-14.40.03:136][  0]LogAIModule: Creating AISystem for world RollingBPExampleMap
+[2017.10.26-14.40.03:305][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.26-14.40.03:510][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.26-14.40.03:625][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 114.752ms to complete.
+[2017.10.26-14.40.03:625][  0]LogFileHelpers: Loading map 'RollingBPExampleMap' took 16.037
+[2017.10.26-14.40.03:686][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.10.26-14.40.05:101][  0]LogCollectionManager: Loaded 0 collections in 0.003064 seconds
+[2017.10.26-14.40.05:305][  0]LogFileCache: Scanning file cache for directory 'C:/Users/dstukel/Documents/Rollosus/Rollossus 4.17/Saved/Collections/' took 0.01s
+[2017.10.26-14.40.05:305][  0]LogFileCache: Scanning file cache for directory 'C:/Users/dstukel/Documents/Rollosus/Rollossus 4.17/Content/Developers/dstukel/Collections/' took 0.01s
+[2017.10.26-14.40.05:305][  0]LogFileCache: Scanning file cache for directory 'C:/Users/dstukel/Documents/Rollosus/Rollossus 4.17/Content/Collections/' took 0.01s
+[2017.10.26-14.40.05:305][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.10.26-14.40.05:325][  0]LogContentBrowser: Native class hierarchy populated in 0.0189 seconds. Added 2386 classes and 500 folders.
+[2017.10.26-14.40.05:529][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0015 seconds. Added 0 classes and 0 folders.
+[2017.10.26-14.40.07:647][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0012 seconds. Added 0 classes and 0 folders.
+[2017.10.26-14.40.07:834][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0012 seconds. Added 1 classes and 2 folders.
+[2017.10.26-14.40.08:224][  0]LogSlate: Took 0.000242 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.26-14.40.08:227][  0]LogSlate: Took 0.000246 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.10.26-14.40.08:261][  0]LogSlate: Took 0.026653 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.10.26-14.40.08:629][  0]LogRenderer: Reallocating scene render targets to support 1288x624 Format 10 NumSamples 1 (Frame:1).
+[2017.10.26-14.40.09:459][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.10.26-14.40.09:459][  0]LogLoad: (Engine Initialization) Total time: 45.25 seconds
+[2017.10.26-14.40.09:459][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.10.26-14.40.09:460][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.10.26-14.40.09:520][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.10.26-14.40.09:626][  0]LogSlate: Took 0.000224 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.26-14.40.09:650][  1]LogAssetRegistry: Asset discovery search completed in 36.2764 seconds
+[2017.10.26-14.40.09:652][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.10.26-14.40.09:653][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000066 seconds (updated 0 objects)
+[2017.10.26-14.40.14:362][282]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.26-14.40.14:470][282]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2017.10.26-14.40.14:470][282]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.26-14.40.14:501][282]PIE: New page: PIE session: RollingBPExampleMap (Oct 26, 2017, 6:40:14 AM)
+[2017.10.26-14.40.14:514][282]LogPlayLevel: Creating play world package: /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap
+[2017.10.26-14.40.14:573][282]LogPlayLevel: PIE: StaticDuplicateObject took: (0.059329s)
+[2017.10.26-14.40.14:574][282]LogAIModule: Creating AISystem for world RollingBPExampleMap
+[2017.10.26-14.40.14:574][282]LogPlayLevel: PIE: World Init took: (0.000988s)
+[2017.10.26-14.40.14:574][282]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap to /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap (0.060859s)
+[2017.10.26-14.40.14:590][282]LogInit: XAudio2 using 'Speakers (Dell USB Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.26-14.40.14:597][282]LogInit: FAudioDevice initialized.
+[2017.10.26-14.40.14:647][282]LogLoad: Game class is 'RollingGameMode_C'
+[2017.10.26-14.40.14:696][282]LogWorld: Bringing World /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap.RollingBPExampleMap up for play (max tick rate 0) at 2017.10.26-10.40.14
+[2017.10.26-14.40.14:793][282]LogWorld: Bringing up level for play took: 0.107762
+[2017.10.26-14.40.14:876][282]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0013 seconds. Added 11 classes and 0 folders.
+[2017.10.26-14.40.14:904][282]PIE: Play in editor start time for /Game/RollingBP/Maps/UEDPIE_0_RollingBPExampleMap 0.895
+[2017.10.26-14.40.14:904][282]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2017.10.26-14.40.21:218][641]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2017.10.26-14.40.21:347][641]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap' with GeneratedClass '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap_C' with ClassGeneratedBy '/Game/RollingBP/Maps/RollingBPExampleMap.RollingBPExampleMap:PersistentLevel.RollingBPExampleMap'
+[2017.10.26-14.40.33:906][279]LogSlate: Took 0.000167 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.26-14.40.34:425][279]LogAIModule: Creating AISystem for world TestArea
+[2017.10.26-14.40.34:568][279]Cmd: MAP LOAD FILE="../../../../../../Users/dstukel/Documents/Rollosus/Rollossus 4.17/Content/RollingBP/Maps/TestArea.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.26-14.40.34:569][279]LightingResults: New page: Lighting Build
+[2017.10.26-14.40.34:569][279]LoadErrors: New page: Loading map: TestArea.umap
+[2017.10.26-14.40.34:579][279]MapCheck: New page: Map Check
+[2017.10.26-14.40.34:579][279]LightingResults: New page: Lighting Build
+[2017.10.26-14.40.34:616][279]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.26-14.40.34:665][279]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.26-14.40.34:744][279]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 79.312ms to complete.
+[2017.10.26-14.40.34:744][279]LogFileHelpers: Loading map 'TestArea' took 0.187
+[2017.10.26-14.40.48:179][970]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.26-14.40.48:198][970]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RollingBP/Maps/TestArea.TestArea:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/TestArea.TestArea:PersistentLevel.TestArea' with GeneratedClass '/Game/RollingBP/Maps/TestArea.TestArea_C' with ClassGeneratedBy '/Game/RollingBP/Maps/TestArea.TestArea:PersistentLevel.TestArea'
+[2017.10.26-14.40.48:199][970]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.26-14.40.48:199][970]PIE: New page: PIE session: TestArea (Oct 26, 2017, 6:40:48 AM)
+[2017.10.26-14.40.48:199][970]LogPlayLevel: Creating play world package: /Game/RollingBP/Maps/UEDPIE_0_TestArea
+[2017.10.26-14.40.48:229][970]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030056s)
+[2017.10.26-14.40.48:230][970]LogAIModule: Creating AISystem for world TestArea
+[2017.10.26-14.40.48:231][970]LogPlayLevel: PIE: World Init took: (0.001487s)
+[2017.10.26-14.40.48:231][970]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingBP/Maps/TestArea.TestArea to /Game/RollingBP/Maps/UEDPIE_0_TestArea.TestArea (0.032051s)
+[2017.10.26-14.40.48:253][970]LogInit: XAudio2 using 'Speakers (Dell USB Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.26-14.40.48:262][970]LogInit: FAudioDevice initialized.
+[2017.10.26-14.40.48:296][970]LogLoad: Game class is 'RollingGameMode_C'
+[2017.10.26-14.40.48:301][970]LogWorld: Bringing World /Game/RollingBP/Maps/UEDPIE_0_TestArea.TestArea up for play (max tick rate 0) at 2017.10.26-10.40.48
+[2017.10.26-14.40.48:301][970]LogWorld: Bringing up level for play took: 0.004809
+[2017.10.26-14.40.48:303][970]PIE: Play in editor start time for /Game/RollingBP/Maps/UEDPIE_0_TestArea 0.295
+[2017.10.26-14.40.48:303][970]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RollingBP/Maps/TestArea.TestArea:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/TestArea.TestArea:PersistentLevel.TestArea' with GeneratedClass '/Game/RollingBP/Maps/TestArea.TestArea_C' with ClassGeneratedBy '/Game/RollingBP/Maps/TestArea.TestArea:PersistentLevel.TestArea'
+[2017.10.26-14.41.24:613][141]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RollingBP/Maps/TestArea.TestArea:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/TestArea.TestArea:PersistentLevel.TestArea' with GeneratedClass '/Game/RollingBP/Maps/TestArea.TestArea_C' with ClassGeneratedBy '/Game/RollingBP/Maps/TestArea.TestArea:PersistentLevel.TestArea'
+[2017.10.26-14.41.24:666][141]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RollingBP/Maps/TestArea.TestArea:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/TestArea.TestArea:PersistentLevel.TestArea' with GeneratedClass '/Game/RollingBP/Maps/TestArea.TestArea_C' with ClassGeneratedBy '/Game/RollingBP/Maps/TestArea.TestArea:PersistentLevel.TestArea'
+[2017.10.26-14.47.34:819][767]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2017.10.26-14.48.32:569][560]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.10.26-14.48.32:632][560]LogLinker: Warning: Can't find file '/Game/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight'
+[2017.10.26-14.48.32:645][560]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight' while loading ../../../../../../Users/dstukel/Documents/Rollosus/Rollossus 4.17/Content/StarterContent/Blueprints/BP_LightStudio.uasset.
+[2017.10.26-14.48.32:645][560]LoadErrors: Error: /Game/StarterContent/Blueprints/BP_LightStudio : Can't find file for asset. /Game/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight
+[2017.10.26-14.48.32:646][560]LogLinker: Warning: Can't find file '/Game/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight'
+[2017.10.26-14.48.32:646][560]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight' while loading ../../../../../../Users/dstukel/Documents/Rollosus/Rollossus 4.17/Content/StarterContent/Blueprints/BP_LightStudio.uasset.
+[2017.10.26-14.48.32:664][560]LogLinker: Warning: Can't find file '/Game/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight'
+[2017.10.26-14.48.32:664][560]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight' while loading ../../../../../../Users/dstukel/Documents/Rollosus/Rollossus 4.17/Content/StarterContent/Maps/Advanced_Lighting.umap.
+[2017.10.26-14.48.32:664][560]LoadErrors: Error: /Game/StarterContent/Maps/Advanced_Lighting : Can't find file for asset. /Game/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight
+[2017.10.26-14.48.32:664][560]LogLinker: Warning: Can't find file '/Game/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight'
+[2017.10.26-14.48.32:664][560]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight' while loading ../../../../../../Users/dstukel/Documents/Rollosus/Rollossus 4.17/Content/StarterContent/Maps/Advanced_Lighting.umap.
+[2017.10.26-14.48.32:664][560]LogLinker: Warning: Can't find file '/Game/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight'
+[2017.10.26-14.48.32:664][560]LoadErrors: Failed to load /Game/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.HDRI_Epic_Courtyard_Daylight Referenced by Default__BP_LightStudio_C
+[2017.10.26-14.48.32:664][560]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight' while loading ../../../../../../Users/dstukel/Documents/Rollosus/Rollossus 4.17/Content/StarterContent/Maps/Advanced_Lighting.umap.
+[2017.10.26-14.48.32:793][560]LogLinker: Warning: Can't find file '/Game/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight'
+[2017.10.26-14.48.32:793][560]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight' while loading ../../../../../../Users/dstukel/Documents/Rollosus/Rollossus 4.17/Content/StarterContent/Maps/Advanced_Lighting.umap.
+[2017.10.26-14.48.32:795][560]LogLinker: Warning: Can't find file '/Game/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight'
+[2017.10.26-14.48.32:795][560]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight' while loading ../../../../../../Users/dstukel/Documents/Rollosus/Rollossus 4.17/Content/StarterContent/Maps/Advanced_Lighting.umap.
+[2017.10.26-14.48.32:810][560]LogLinker: Warning: Can't find file '/Game/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight'
+[2017.10.26-14.48.32:810][560]LoadErrors: Failed to load /Game/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.HDRI_Epic_Courtyard_Daylight Referenced by MaterialInstanceDynamic_2
+[2017.10.26-14.48.32:810][560]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight' while loading NULL.
+[2017.10.26-14.48.33:128][560]LogAIModule: Creating AISystem for world Advanced_Lighting
+[2017.10.26-14.48.33:443][560]LogStaticMesh: Building static mesh Floor_400x400...
+[2017.10.26-14.48.33:462][560]LogStaticMesh: Built static mesh [0.02s] /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400
+[2017.10.26-14.48.33:577][560]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.10.26-14.48.33:663][560]LogLinker: Warning: Can't find file '/Game/StarterContent/Blueprints/Blueprint_CeilingLight'
+[2017.10.26-14.48.33:663][560]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Blueprints/Blueprint_CeilingLight' while loading ../../../../../../Users/dstukel/Documents/Rollosus/Rollossus 4.17/Content/StarterContent/Maps/StarterMap.umap.
+[2017.10.26-14.48.33:663][560]LoadErrors: Error: /Game/StarterContent/Maps/StarterMap : Can't find file for asset. /Game/StarterContent/Blueprints/Blueprint_CeilingLight
+[2017.10.26-14.48.33:664][560]LogLinker: Warning: Can't find file '/Game/StarterContent/Blueprints/Blueprint_WallSconce'
+[2017.10.26-14.48.33:664][560]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Blueprints/Blueprint_WallSconce' while loading ../../../../../../Users/dstukel/Documents/Rollosus/Rollossus 4.17/Content/StarterContent/Maps/StarterMap.umap.
+[2017.10.26-14.48.33:664][560]LoadErrors: Error: /Game/StarterContent/Maps/StarterMap : Can't find file for asset. /Game/StarterContent/Blueprints/Blueprint_WallSconce
+[2017.10.26-14.48.34:156][560]LogLinker: Warning: Can't find file '/Game/StarterContent/Blueprints/Blueprint_CeilingLight'
+[2017.10.26-14.48.34:157][560]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Blueprints/Blueprint_CeilingLight' while loading ../../../../../../Users/dstukel/Documents/Rollosus/Rollossus 4.17/Content/StarterContent/Maps/StarterMap.umap.
+[2017.10.26-14.48.34:158][560]LogLinker: Warning: Can't find file '/Game/StarterContent/Blueprints/Blueprint_WallSconce'
+[2017.10.26-14.48.34:158][560]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Blueprints/Blueprint_WallSconce' while loading ../../../../../../Users/dstukel/Documents/Rollosus/Rollossus 4.17/Content/StarterContent/Maps/StarterMap.umap.
+[2017.10.26-14.48.34:213][560]LogLinker: Warning: Can't find file '/Game/StarterContent/Blueprints/Blueprint_CeilingLight'
+[2017.10.26-14.48.34:213][560]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Blueprints/Blueprint_CeilingLight' while loading ../../../../../../Users/dstukel/Documents/Rollosus/Rollossus 4.17/Content/StarterContent/Maps/StarterMap.umap.
+[2017.10.26-14.48.34:214][560]LogLinker: Warning: Can't find file '/Game/StarterContent/Blueprints/Blueprint_CeilingLight'
+[2017.10.26-14.48.34:214][560]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Blueprints/Blueprint_CeilingLight' while loading ../../../../../../Users/dstukel/Documents/Rollosus/Rollossus 4.17/Content/StarterContent/Maps/StarterMap.umap.
+[2017.10.26-14.48.34:214][560]LogLinker: Warning: Can't find file '/Game/StarterContent/Blueprints/Blueprint_WallSconce'
+[2017.10.26-14.48.34:214][560]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Blueprints/Blueprint_WallSconce' while loading ../../../../../../Users/dstukel/Documents/Rollosus/Rollossus 4.17/Content/StarterContent/Maps/StarterMap.umap.
+[2017.10.26-14.48.34:215][560]LogLinker: Warning: Can't find file '/Game/StarterContent/Blueprints/Blueprint_WallSconce'
+[2017.10.26-14.48.34:215][560]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Blueprints/Blueprint_WallSconce' while loading ../../../../../../Users/dstukel/Documents/Rollosus/Rollossus 4.17/Content/StarterContent/Maps/StarterMap.umap.
+[2017.10.26-14.48.34:220][560]LogLinker: Warning: Can't find file '/Game/StarterContent/Blueprints/Blueprint_CeilingLight'
+[2017.10.26-14.48.34:220][560]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Blueprints/Blueprint_CeilingLight' while loading ../../../../../../Users/dstukel/Documents/Rollosus/Rollossus 4.17/Content/StarterContent/Maps/StarterMap.umap.
+[2017.10.26-14.48.34:221][560]LogLinker: Warning: Can't find file '/Game/StarterContent/Blueprints/Blueprint_WallSconce'
+[2017.10.26-14.48.34:221][560]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Blueprints/Blueprint_WallSconce' while loading ../../../../../../Users/dstukel/Documents/Rollosus/Rollossus 4.17/Content/StarterContent/Maps/StarterMap.umap.
+[2017.10.26-14.48.34:224][560]LogLinker: Warning: Can't find file '/Game/StarterContent/Blueprints/Blueprint_CeilingLight'
+[2017.10.26-14.48.34:224][560]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Blueprints/Blueprint_CeilingLight' while loading NULL.
+[2017.10.26-14.48.34:224][560]LogLinker: Warning: Can't find file '/Game/StarterContent/Blueprints/Blueprint_WallSconce'
+[2017.10.26-14.48.34:225][560]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Blueprints/Blueprint_WallSconce' while loading NULL.
+[2017.10.26-14.48.34:225][560]LogLinker: Warning: Can't find file '/Game/StarterContent/Blueprints/Blueprint_CeilingLight'
+[2017.10.26-14.48.34:225][560]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Blueprints/Blueprint_CeilingLight' while loading NULL.
+[2017.10.26-14.48.34:225][560]LogLinker: Warning: Can't find file '/Game/StarterContent/Blueprints/Blueprint_WallSconce'
+[2017.10.26-14.48.34:225][560]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Blueprints/Blueprint_WallSconce' while loading NULL.
+[2017.10.26-14.48.34:225][560]LogLinker: Warning: Can't find file '/Game/StarterContent/Blueprints/Blueprint_CeilingLight'
+[2017.10.26-14.48.34:225][560]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Blueprints/Blueprint_CeilingLight' while loading NULL.
+[2017.10.26-14.48.34:225][560]LogLinker: Warning: Can't find file '/Game/StarterContent/Blueprints/Blueprint_CeilingLight'
+[2017.10.26-14.48.34:225][560]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Blueprints/Blueprint_CeilingLight' while loading NULL.
+[2017.10.26-14.48.34:226][560]LogLinker: Warning: Can't find file '/Game/StarterContent/Blueprints/Blueprint_WallSconce'
+[2017.10.26-14.48.34:226][560]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Blueprints/Blueprint_WallSconce' while loading NULL.
+[2017.10.26-14.48.34:226][560]LogLinker: Warning: Can't find file '/Game/StarterContent/Blueprints/Blueprint_WallSconce'
+[2017.10.26-14.48.34:226][560]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Blueprints/Blueprint_WallSconce' while loading NULL.
+[2017.10.26-14.48.34:226][560]LogLinker: Warning: Can't find file '/Game/StarterContent/Blueprints/Blueprint_CeilingLight'
+[2017.10.26-14.48.34:226][560]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Blueprints/Blueprint_CeilingLight' while loading NULL.
+[2017.10.26-14.48.34:226][560]LogLinker: Warning: Can't find file '/Game/StarterContent/Blueprints/Blueprint_WallSconce'
+[2017.10.26-14.48.34:226][560]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Blueprints/Blueprint_WallSconce' while loading NULL.
+[2017.10.26-14.48.34:234][560]LogLinker: Warning: Can't find file '/Game/StarterContent/Blueprints/Blueprint_CeilingLight'
+[2017.10.26-14.48.34:234][560]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Blueprints/Blueprint_CeilingLight' while loading NULL.
+[2017.10.26-14.48.34:235][560]LogLinker: Warning: Can't find file '/Game/StarterContent/Blueprints/Blueprint_CeilingLight'
+[2017.10.26-14.48.34:235][560]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Blueprints/Blueprint_CeilingLight' while loading NULL.
+[2017.10.26-14.48.34:235][560]LogLinker: Warning: Can't find file '/Game/StarterContent/Blueprints/Blueprint_WallSconce'
+[2017.10.26-14.48.34:235][560]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Blueprints/Blueprint_WallSconce' while loading NULL.
+[2017.10.26-14.48.34:235][560]LogLinker: Warning: Can't find file '/Game/StarterContent/Blueprints/Blueprint_WallSconce'
+[2017.10.26-14.48.34:235][560]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Blueprints/Blueprint_WallSconce' while loading NULL.
+[2017.10.26-14.48.34:237][560]LogLinker: Warning: Can't find file '/Game/StarterContent/Blueprints/Blueprint_CeilingLight'
+[2017.10.26-14.48.34:237][560]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Blueprints/Blueprint_CeilingLight' while loading NULL.
+[2017.10.26-14.48.34:237][560]LogLinker: Warning: Can't find file '/Game/StarterContent/Blueprints/Blueprint_CeilingLight'
+[2017.10.26-14.48.34:237][560]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Blueprints/Blueprint_CeilingLight' while loading NULL.
+[2017.10.26-14.48.34:237][560]LogLinker: Warning: Can't find file '/Game/StarterContent/Blueprints/Blueprint_CeilingLight'
+[2017.10.26-14.48.34:238][560]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Blueprints/Blueprint_CeilingLight' while loading NULL.
+[2017.10.26-14.48.34:238][560]LogLinker: Warning: Can't find file '/Game/StarterContent/Blueprints/Blueprint_CeilingLight'
+[2017.10.26-14.48.34:238][560]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Blueprints/Blueprint_CeilingLight' while loading NULL.
+[2017.10.26-14.48.34:238][560]LogLinker: Warning: Can't find file '/Game/StarterContent/Blueprints/Blueprint_WallSconce'
+[2017.10.26-14.48.34:238][560]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Blueprints/Blueprint_WallSconce' while loading NULL.
+[2017.10.26-14.48.34:238][560]LogLinker: Warning: Can't find file '/Game/StarterContent/Blueprints/Blueprint_WallSconce'
+[2017.10.26-14.48.34:238][560]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Blueprints/Blueprint_WallSconce' while loading NULL.
+[2017.10.26-14.48.34:239][560]LogLinker: Warning: Can't find file '/Game/StarterContent/Blueprints/Blueprint_WallSconce'
+[2017.10.26-14.48.34:239][560]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Blueprints/Blueprint_WallSconce' while loading NULL.
+[2017.10.26-14.48.34:239][560]LogLinker: Warning: Can't find file '/Game/StarterContent/Blueprints/Blueprint_WallSconce'
+[2017.10.26-14.48.34:239][560]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Blueprints/Blueprint_WallSconce' while loading NULL.
+[2017.10.26-14.48.34:247][560]LogLinker: Warning: Can't find file '/Game/StarterContent/Blueprints/Blueprint_CeilingLight'
+[2017.10.26-14.48.34:247][560]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Blueprints/Blueprint_CeilingLight' while loading NULL.
+[2017.10.26-14.48.34:247][560]LogLinker: Warning: Can't find file '/Game/StarterContent/Blueprints/Blueprint_CeilingLight'
+[2017.10.26-14.48.34:247][560]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Blueprints/Blueprint_CeilingLight' while loading NULL.
+[2017.10.26-14.48.34:247][560]LogLinker: Warning: Can't find file '/Game/StarterContent/Blueprints/Blueprint_WallSconce'
+[2017.10.26-14.48.34:247][560]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Blueprints/Blueprint_WallSconce' while loading NULL.
+[2017.10.26-14.48.34:247][560]LogLinker: Warning: Can't find file '/Game/StarterContent/Blueprints/Blueprint_WallSconce'
+[2017.10.26-14.48.34:247][560]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Blueprints/Blueprint_WallSconce' while loading NULL.
+[2017.10.26-14.48.34:295][560]LogLinker: Warning: Can't find file '/Game/StarterContent/Blueprints/Blueprint_CeilingLight'
+[2017.10.26-14.48.34:295][560]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Blueprints/Blueprint_CeilingLight' while loading NULL.
+[2017.10.26-14.48.34:295][560]LogLinker: Warning: Can't find file '/Game/StarterContent/Blueprints/Blueprint_CeilingLight'
+[2017.10.26-14.48.34:295][560]LoadErrors: Failed to load /Game/StarterContent/Blueprints/Blueprint_CeilingLight.Blueprint_CeilingLight_C Referenced by PersistentLevel
+[2017.10.26-14.48.34:295][560]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Blueprints/Blueprint_CeilingLight' while loading NULL.
+[2017.10.26-14.48.34:295][560]LogLinker: Warning: Can't find file '/Game/StarterContent/Blueprints/Blueprint_WallSconce'
+[2017.10.26-14.48.34:295][560]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Blueprints/Blueprint_WallSconce' while loading NULL.
+[2017.10.26-14.48.34:296][560]LogLinker: Warning: Can't find file '/Game/StarterContent/Blueprints/Blueprint_WallSconce'
+[2017.10.26-14.48.34:296][560]LoadErrors: Failed to load /Game/StarterContent/Blueprints/Blueprint_WallSconce.Blueprint_WallSconce_C Referenced by PersistentLevel
+[2017.10.26-14.48.34:296][560]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Blueprints/Blueprint_WallSconce' while loading NULL.
+[2017.10.26-14.48.35:467][560]LogAIModule: Creating AISystem for world StarterMap
+[2017.10.26-14.48.40:268][560]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'PointLight1': Blueprint_CeilingLight_C /Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.Blueprint_CeilingLight_C_1
+[2017.10.26-14.48.40:268][560]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Scene1': Blueprint_CeilingLight_C /Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.Blueprint_CeilingLight_C_1
+[2017.10.26-14.48.40:269][560]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Scene1': Blueprint_WallSconce_C /Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.Blueprint_WallSconce_C_0
+[2017.10.26-14.48.40:269][560]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'PointLight2': Blueprint_WallSconce_C /Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.Blueprint_WallSconce_C_0
+[2017.10.26-14.48.40:269][560]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'SM_Lamp_Ceiling': Blueprint_CeilingLight_C /Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.Blueprint_CeilingLight_C_1
+[2017.10.26-14.48.40:269][560]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'SM_Lamp_Wall': Blueprint_WallSconce_C /Game/StarterContent/Maps/StarterMap.StarterMap:PersistentLevel.Blueprint_WallSconce_C_0
+[2017.10.26-14.51.31:390][414]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.26-14.51.31:413][414]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/RollingBP/Maps/TestArea.TestArea:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/TestArea.TestArea:PersistentLevel.TestArea' with GeneratedClass '/Game/RollingBP/Maps/TestArea.TestArea_C' with ClassGeneratedBy '/Game/RollingBP/Maps/TestArea.TestArea:PersistentLevel.TestArea'
+[2017.10.26-14.51.31:413][414]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.26-14.51.31:413][414]PIE: New page: PIE session: TestArea (Oct 26, 2017, 6:51:31 AM)
+[2017.10.26-14.51.31:413][414]LogPlayLevel: Creating play world package: /Game/RollingBP/Maps/UEDPIE_0_TestArea
+[2017.10.26-14.51.31:447][414]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034132s)
+[2017.10.26-14.51.31:448][414]LogAIModule: Creating AISystem for world TestArea
+[2017.10.26-14.51.31:449][414]LogPlayLevel: PIE: World Init took: (0.001380s)
+[2017.10.26-14.51.31:449][414]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/RollingBP/Maps/TestArea.TestArea to /Game/RollingBP/Maps/UEDPIE_0_TestArea.TestArea (0.035971s)
+[2017.10.26-14.51.31:469][414]LogInit: XAudio2 using 'Speakers (Dell USB Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.26-14.51.31:478][414]LogInit: FAudioDevice initialized.
+[2017.10.26-14.51.31:511][414]LogLoad: Game class is 'RollingGameMode_C'
+[2017.10.26-14.51.31:517][414]LogWorld: Bringing World /Game/RollingBP/Maps/UEDPIE_0_TestArea.TestArea up for play (max tick rate 0) at 2017.10.26-10.51.31
+[2017.10.26-14.51.31:517][414]LogWorld: Bringing up level for play took: 0.005232
+[2017.10.26-14.51.31:519][414]PIE: Play in editor start time for /Game/RollingBP/Maps/UEDPIE_0_TestArea -0.483
+[2017.10.26-14.51.31:520][414]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/RollingBP/Maps/TestArea.TestArea:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/TestArea.TestArea:PersistentLevel.TestArea' with GeneratedClass '/Game/RollingBP/Maps/TestArea.TestArea_C' with ClassGeneratedBy '/Game/RollingBP/Maps/TestArea.TestArea:PersistentLevel.TestArea'
+[2017.10.26-14.52.27:560][609]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/RollingBP/Maps/TestArea.TestArea:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/TestArea.TestArea:PersistentLevel.TestArea' with GeneratedClass '/Game/RollingBP/Maps/TestArea.TestArea_C' with ClassGeneratedBy '/Game/RollingBP/Maps/TestArea.TestArea:PersistentLevel.TestArea'
+[2017.10.26-14.52.27:609][609]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/RollingBP/Maps/TestArea.TestArea:PersistentLevel' has LevelScriptBlueprint '/Game/RollingBP/Maps/TestArea.TestArea:PersistentLevel.TestArea' with GeneratedClass '/Game/RollingBP/Maps/TestArea.TestArea_C' with ClassGeneratedBy '/Game/RollingBP/Maps/TestArea.TestArea:PersistentLevel.TestArea'
+>>>>>>> origin/Devin

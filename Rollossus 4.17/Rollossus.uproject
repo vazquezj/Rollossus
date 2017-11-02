@@ -1,6 +1,10 @@
 {
 	"FileVersion": 3,
+<<<<<<< HEAD
 	"EngineAssociation": "{02CD6356-420D-0A80-7CEA-6FADDE191A20}",
+=======
+	"EngineAssociation": "{F6B2C83D-435B-0825-0B6E-5C8DEFCDDE39}",
+>>>>>>> origin/Devin
 	"Category": "",
 	"Description": ""
 }
